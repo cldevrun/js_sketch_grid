@@ -1,0 +1,15 @@
+.container {
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 650px;
+    height: 650px;
+}
+
+
+.child {
+    flex: 1 0 21%; /* explanation below */
+    margin: 5px;
+    height: 100px;
+    background-color: blue;
+}
