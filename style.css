@@ -1,15 +1,13 @@
 .container {
-    display: inline-block;
-    justify-content: center;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 650px;
     height: 650px;
-}
-
-
-.child {
-    flex: 1 0 21%; /* explanation below */
-    margin: 5px;
-    height: 100px;
-    background-color: blue;
+    min-width: 650px;
+    min-height: 650px;
+    margin-left: 150px;
+    background-image: url(images/blank.jpg);
+    background-repeat: repeat;
+    background-size: 350px;
 }
