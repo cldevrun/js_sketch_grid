@@ -1,4 +1,13 @@
-.container {
+.sizeChange {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+}
+
+.container {    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -7,7 +16,13 @@
     min-width: 650px;
     min-height: 650px;
     margin-left: 150px;
+    margin-right: 25px;
     background-image: url(images/blank.jpg);
     background-repeat: repeat;
-    background-size: 350px;
+}
+
+
+
+.options {
+    flex-direction: column;
 }

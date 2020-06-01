@@ -3,10 +3,20 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Etch A Sketch</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">  
     </head>
     <body>
-        <div class="container"></div>
+        <div class="sizeChange">
+            <label for="container_Size" class="sizeText">Enter grid size</label>
+            <input type="number" min="1" max="200" class="input">
+            <button type="button" class="btn_resize">Resize</button>
+        </div>
+        <div class="content">
+            <div class="container"></div>
+            <div class="options">
+                <button type="button" class="btn_reset">Reset</button>
+            </div>
+        </div>
     </body>
     <script src="script.js"></script>
 </html>
