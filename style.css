@@ -1,6 +1,35 @@
+body {
+    background-image: url(images/square.png);
+}
+
+button {
+    background-color:#7892c2;
+	border-radius:24px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	padding: 0px 15px;
+	text-decoration:none;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    color: rgb(224, 117, 16);
+}
+
 .sizeChange {
     display: flex;
     justify-content: center;
+}
+
+.input {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .content {
