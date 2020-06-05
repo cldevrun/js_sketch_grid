@@ -1,6 +1,5 @@
 let hslCount = 0;
 
-//const inputSize = document.querySelector();
 const container = document.querySelector('.container');
 const reset  = document.querySelector('.btn_reset');
 const resize = document.querySelector('.btn_resize');
@@ -37,7 +36,7 @@ function getColor() {
     return color;
 }
 
-/* Supports sizes 1-200, if none given default to 50 */
+/* Function to change the size of the grid  */
 function resetGrid() {
     size = input.value;
     Array.from(document.querySelectorAll('.pix')).forEach(pixel => container.removeChild(pixel));
